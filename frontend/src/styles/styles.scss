@@ -37,13 +37,24 @@
   }
 }
 
-.header {
+header {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    background: #1abc9c;
+    background: #f0db72;
     color: white;
     font-size: 10px;
     height: 70px;
+
+    .navLogo {
+        position: absolute;
+        left: 15px;
+        padding: 5px;
+    }
+
+    .navBrand {
+        position: absolute;
+        left: 90px;
+    }
 }

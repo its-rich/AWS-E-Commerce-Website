@@ -12,7 +12,6 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -36,14 +35,24 @@
     transform: rotate(360deg);
   }
 }
-
-.header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background: #1abc9c;
-    color: white;
-    font-size: 10px;
-    height: 70px;
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #f0db72;
+  color: white;
+  font-size: 10px;
+  height: 70px;
 }
+header .navLogo {
+  position: absolute;
+  left: 15px;
+  padding: 5px;
+}
+header .navBrand {
+  position: absolute;
+  left: 90px;
+}
+
+/*# sourceMappingURL=styles.css.map */
