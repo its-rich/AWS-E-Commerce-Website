@@ -1,5 +1,7 @@
+/* Learnt SASS from this tutorial https://www.youtube.com/watch?v=Zz6eOVaaelI */
+
 .App {
-  text-align: center;
+    text-align: center;
 }
 
 .App-logo {
@@ -45,7 +47,7 @@ header {
     background: #f0db72;
     color: white;
     font-size: 10px;
-    height: 70px;
+    height: 80px;
 
     .navLogo {
         position: absolute;
@@ -56,5 +58,23 @@ header {
     .navBrand {
         position: absolute;
         left: 90px;
+    }
+}
+
+.main {
+    margin-top: 80px;
+}
+
+.even-columns {
+    display: flex;
+    gap: 1em;
+
+    .col {
+        width: 400px;
+        height: 400px;
+    }
+
+    > * {
+        flex-basis: 100%;
     }
 }
